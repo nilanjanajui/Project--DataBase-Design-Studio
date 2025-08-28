@@ -149,14 +149,10 @@ npm start
 
 <p align="center">
   <a href="https://github.com/subhasesgin">
-    <img src="https://avatars.githubusercontent.com/u/12345678?v=4" width="100px;" style="border-radius:50%" alt="Subha Shesgin"/>
-    <br/>
     <sub><b>👩‍💻 Subha Shesgin</b></sub>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/sumaiyanazneen">
-    <img src="https://avatars.githubusercontent.com/u/87654321?v=4" width="100px;" style="border-radius:50%" alt="Sumaiya Nazneen"/>
-    <br/>
     <sub><b>👩‍💻 Sumaiya Nazneen</b></sub>
   </a>
 </p>
