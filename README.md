@@ -110,7 +110,7 @@ npm start
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/workflow.png" alt="Workflow Visualization" width="700"/>
+  <img src="assets/Workflow.png" alt="Workflow Visualization" width="700"/>
   <br/>
   <img src="assets/ER_Diagram.png" alt="ER Diagram" width="700"/>
   <br/>
