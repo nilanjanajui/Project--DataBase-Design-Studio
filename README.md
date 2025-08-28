@@ -110,11 +110,11 @@ npm start
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400?text=Workflow+Visualization" alt="Workflow Visualization" />
+  <img src=""C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-08-20 205539.png"" alt="Workflow Visualization" width="700"/>
   <br/>
-  <img src="https://via.placeholder.com/700x400?text=ER+Diagram" alt="ER Diagram" />
+  <img src="assets/er-diagram.png" alt="ER Diagram" width="700"/>
   <br/>
-  <img src="https://via.placeholder.com/700x400?text=Normalized+Tables" alt="Normalized Tables" />
+  <img src="assets/normalized-tables.png" alt="Normalized Tables" width="700"/>
 </p>
 
 ---
