@@ -146,16 +146,8 @@ npm start
 ---
 
 ## 👩‍💻 Contributors
-
-<p align="center">
-  <a href="https://github.com/subhasesgin">
-    <sub><b>👩‍💻 Subha Shesgin</b></sub>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/sumaiyanazneen">
-    <sub><b>👩‍💻 Sumaiya Nazneen</b></sub>
-  </a>
-</p>
+- 👩‍💻 *Subha Shesgin*(https://github.com/subha-shesgin)
+- 👩‍💻 *Sumaiya Nazneen*(https://github.com/priX-D)
 
 ---
 
