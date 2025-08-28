@@ -123,7 +123,7 @@ backend/ (Flask)
 
 ## 🔗 API Endpoints
 ```plaintext
- | Endpoint                            | Method | Description                       |
+| Endpoint                            | Method | Description                       |
 | ----------------------------------- | ------ | --------------------------------- |
 | `/api/upload`                       | POST   | Upload dataset                    |
 | `/api/normalized_tables`            | GET    | Fetch all normalized tables       |
