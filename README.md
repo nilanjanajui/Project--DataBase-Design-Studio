@@ -137,7 +137,15 @@ backend/ (Flask)
 
 ---
 
+## 👨‍💻 Tech Stack
 
+- **Frontend** → React, React Router, Axios, Context API, React-Syntax-Highlighter, FontAwesome Icons
+
+- **Backend** → Flask, Pandas, Graphviz, Python Data Utils
+
+- *Visualization* → Mermaid.js, Graphviz, Custom Workflow UI
+
+Database Theory Concepts → FD Detection, Normal Forms, Dependency Preservation, Lossless Join
 
 
 
