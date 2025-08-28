@@ -143,12 +143,23 @@ backend/ (Flask)
 
 - **Backend** → Flask, Pandas, Graphviz, Python Data Utils
 
-- *Visualization* → Mermaid.js, Graphviz, Custom Workflow UI
+- **Visualization** → Graphviz, Custom Workflow UI
 
-Database Theory Concepts → FD Detection, Normal Forms, Dependency Preservation, Lossless Join
+- **Database Theory Concepts** → FD Detection, Normal Forms, Dependency Preservation, Lossless Join
 
+---
 
+## 👩‍💻 Contributors
 
+- 👩‍💻 *Subha Shesgin*
+
+- 👩‍💻 *Sumaiya Nazneen*
+
+---
+
+## 📜 License
+
+*This project is licensed under the MIT License – feel free to use, modify, and distribute.*
 
 
 
