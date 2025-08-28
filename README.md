@@ -1,26 +1,31 @@
-# 📊 Database Design Studio  
+# 📊 Database Design Studio
 
-🚀 **Database Design Studio** is a full-stack application built with **Flask (backend)** and **React (frontend)** to automate **database normalization**, **functional dependency detection**, **ER diagram generation**, and **workflow visualization**.  
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/database-design-studio?color=blue)
+![GitHub contributors](https://img.shields.io/github/contributors/your-username/database-design-studio)
+![GitHub stars](https://img.shields.io/github/stars/your-username/database-design-studio?style=social)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-It provides an **Excel-like UI for tables**, interactive panels for workflow management, and auto-generated **ER diagrams (Graphviz / Mermaid.js)**.  
+🚀 **Database Design Studio** is a full-stack application built with **Flask (backend)** and **React (frontend)** to automate **database normalization**, **functional dependency detection**, **ER diagram generation**, and **workflow visualization**.
 
----
-
-## ✨ Features  
-
-- 🔼 **File Upload & Cleaning** – Upload datasets (CSV/Excel) and preprocess them.  
-- 📐 **Normalization (1NF → 3NF)** – Automated decomposition with candidate keys, superkeys, and primary key detection.  
-- 🔍 **Functional Dependency Detection** – Auto-detect FDs with compound attributes.  
-- 🔄 **Dependency Preservation & Lossless Check** – Verify correctness of decomposition.  
-- 📊 **Excel-like Table Viewer** – Browse normalized tables dynamically.  
-- 📜 **Code Panel** – View the executed backend code for each workflow step.  
-- 🔔 **Message Panel** – See messages, logs, and interactive dropdowns for table navigation.  
-- 📌 **ER Diagram Generator** – Visualize entities & relationships with PK/FK detection (colored + styled).  
-- 🧩 **Interactive Workflow UI** – Draggable workflow blocks with connected flow lines.  
+It provides an **Excel-like UI for tables**, interactive panels for workflow management, and auto-generated **ER diagrams (Graphviz)**.
 
 ---
 
-## 🏗️ System Architecture  
+## ✨ Features
+
+* 🔼 **File Upload & Cleaning** – Upload datasets (CSV/Excel) and preprocess them.
+* 📐 **Normalization (1NF → 3NF)** – Automated decomposition with candidate keys, superkeys, and primary key detection.
+* 🔍 **Functional Dependency Detection** – Auto-detect FDs with compound attributes.
+* 🔄 **Dependency Preservation & Lossless Check** – Verify correctness of decomposition.
+* 📊 **Excel-like Table Viewer** – Browse normalized tables dynamically.
+* 📜 **Code Panel** – View the executed backend code for each workflow step.
+* 🔔 **Message Panel** – See messages, logs, and interactive dropdowns for table navigation.
+* 📌 **ER Diagram Generator** – Visualize entities & relationships with PK/FK detection (colored + styled).
+* 🧩 **Interactive Workflow UI** – Draggable workflow blocks with connected flow lines.
+
+---
+
+## 🏗️ System Architecture
 
 ```plaintext
 frontend/ (React)
@@ -55,73 +60,73 @@ backend/ (Flask)
 ---
 
 ## ⚡ Installation & Setup
- 🔹 **Backend (Flask)**
- ```plaintext
-  # Clone the repo
-  git clone https://github.com/your-username/database-design-studio.git
-  cd database-design-studio
 
-  # Create a virtual environment
-  python -m venv venv
-  venv\Scripts\activate   # On Windows
-  # source venv/bin/activate  # On Mac/Linux
+### 🔹 Backend (Flask)
 
-  # Install dependencies
-  pip install -r requirements.txt
+```bash
+# Clone the repo
+git clone https://github.com/your-username/database-design-studio.git
+cd database-design-studio
 
-  # Run backend server
-  python app.py
+# Create a virtual environment
+python -m venv venv
+venv\Scripts\activate   # On Windows
+# source venv/bin/activate  # On Mac/Linux
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run backend server
+python app.py
 ```
 
-## The Flask server will start at:
-  ```plaintext
-   http://127.0.0.1:5000
-  ```
+The Flask server will start at: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
 
 ---
 
-## 🔹 Frontend (React)
-```plaintext
-  cd frontend
+### 🔹 Frontend (React)
 
-  # Install dependencies
-  npm install
+```bash
+cd frontend
 
-  # Run React app
-  npm start
+# Install dependencies
+npm install
+
+# Run React app
+npm start
 ```
 
-## The React frontend will start at:
-```plaintext
-  http://localhost:3000
-```
+The React frontend will start at: **[http://localhost:3000](http://localhost:3000)**
+
 ---
 
 ## 🎨 User Interface Layout
 
-- **Left Panel (ActionPanel)** → Select actions like Upload, Normalize, Generate ER.
-
-- **Center Panel (OutputPanel)** → Shows workflow as draggable blocks.
-
-- **Right Panel (Split: Messages + Code)** → Messages with logs & dropdowns for normalized tables.
-
-- **Code Panel** showing Python snippets.
+📌 **Left Panel (ActionPanel)** → Select actions like Upload, Normalize, Generate ER.
+📌 **Center Panel (OutputPanel)** → Shows workflow as draggable blocks.
+📌 **Right Panel (Messages + Code)** → Logs, messages & dropdowns for normalized tables.
+📌 **Code Panel** → Shows backend Python snippets dynamically.
 
 ---
 
 ## 📸 Screenshots
-- **Workflow Visualization**
-  
 
-- **ER Diagram**
+### 🔹 Workflow Visualization
 
-- **Normalized Tables**
+![Workflow](https://via.placeholder.com/800x400.png?text=Workflow+Visualization)
 
+### 🔹 ER Diagram
+
+![ER Diagram](https://via.placeholder.com/800x400.png?text=ER+Diagram)
+
+### 🔹 Normalized Tables
+
+![Tables](https://via.placeholder.com/800x400.png?text=Normalized+Tables)
 
 ---
 
 ## 🔗 API Endpoints
+
 ```plaintext
 | Endpoint                            | Method | Description                       |
 | ----------------------------------- | ------ | --------------------------------- |
@@ -139,33 +144,22 @@ backend/ (Flask)
 
 ## 👨‍💻 Tech Stack
 
-- **Frontend** → React, React Router, Axios, Context API, React-Syntax-Highlighter, FontAwesome Icons
-
-- **Backend** → Flask, Pandas, Graphviz, Python Data Utils
-
-- **Visualization** → Graphviz, Custom Workflow UI
-
-- **Database Theory Concepts** → FD Detection, Normal Forms, Dependency Preservation, Lossless Join
+* **Frontend** → React, React Router, Axios, Context API, React-Syntax-Highlighter, FontAwesome Icons
+* **Backend** → Flask, Pandas, Graphviz, Python Data Utils
+* **Visualization** → Graphviz, Custom Workflow UI
+* **Database Concepts** → FD Detection, Normal Forms, Dependency Preservation, Lossless Join
 
 ---
 
 ## 👩‍💻 Contributors
 
-- 👩‍💻 *Subha Shesgin*
-
-- 👩‍💻 *Sumaiya Nazneen*
+| Contributor                                                                                      | Profile                                                                            |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| ![Subha Shesgin](https://avatars.githubusercontent.com/u/0000001?v=4) <br> **Subha Shesgin**     | [GitHub](https://github.com/subha) · [LinkedIn](https://linkedin.com/in/subha)     |
+| ![Sumaiya Nazneen](https://avatars.githubusercontent.com/u/0000002?v=4) <br> **Sumaiya Nazneen** | [GitHub](https://github.com/sumaiya) · [LinkedIn](https://linkedin.com/in/sumaiya) |
 
 ---
 
 ## 📜 License
 
-*This project is licensed under the MIT License – feel free to use, modify, and distribute.*
-
-
-
-
-
-
-
-
- 
+📌 This project is licensed under the **MIT License** – feel free to use, modify, and distribute.
