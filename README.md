@@ -110,7 +110,7 @@ npm start
 ## 📸 Screenshots
 
 <p align="center">
-  <img src=""C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-08-20 205539.png"" alt="Workflow Visualization" width="700"/>
+  <img src="assets/workflow.png" alt="Workflow Visualization" width="700"/>
   <br/>
   <img src="assets/er-diagram.png" alt="ER Diagram" width="700"/>
   <br/>
@@ -118,6 +118,7 @@ npm start
 </p>
 
 ---
+
 
 ## 🔗 API Endpoints
 
