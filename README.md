@@ -52,6 +52,8 @@ backend/ (Flask)
 └── processed/                   # Stores processed/normalized tables
 ```
 
+---
+
 ## ⚡ Installation & Setup
  🔹 **Backend (Flask)**
  ```plaintext
@@ -77,6 +79,8 @@ backend/ (Flask)
    http://127.0.0.1:5000
   ```
 
+---
+
 ## 🔹 Frontend (React)
 ```plaintext
   cd frontend
@@ -92,8 +96,9 @@ backend/ (Flask)
 ```plaintext
   http://localhost:3000
 ```
+---
 
-🎨 User Interface Layout
+## 🎨 User Interface Layout
 
 - **Left Panel (ActionPanel)** → Select actions like Upload, Normalize, Generate ER.
 
@@ -103,10 +108,34 @@ backend/ (Flask)
 
 - **Code Panel** showing Python snippets.
 
+---
+
+## 📸 Screenshots
+- **Workflow Visualization**
+  
+
+- **ER Diagram**
+
+- **Normalized Tables**
 
 
+---
 
+## 🔗 API Endpoints
+```plaintext
+ | Endpoint                            | Method | Description                       |
+| ----------------------------------- | ------ | --------------------------------- |
+| `/api/upload`                       | POST   | Upload dataset                    |
+| `/api/normalized_tables`            | GET    | Fetch all normalized tables       |
+| `/api/get_normalized_table/<table>` | GET    | Fetch a specific normalized table |
+| `/api/detected_fds`                 | GET    | Fetch functional dependencies     |
+| `/api/decomposed_schemas`           | GET    | Fetch decomposed schemas          |
+| `/api/dependency_preservation`      | POST   | Check dependency preservation     |
+| `/api/lossless_check`               | POST   | Perform lossless join check       |
+| `/api/er_diagram`                   | GET    | Generate ER diagram               |
+```
 
+---
 
 
 
