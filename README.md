@@ -74,7 +74,7 @@ backend/ (Flask)
 
 ## The Flask server will start at:
   ```plaintext
-  http://127.0.0.1:5000
+   http://127.0.0.1:5000
   ```
 
 ## 🔹 Frontend (React)
@@ -93,6 +93,15 @@ backend/ (Flask)
   http://localhost:3000
 ```
 
+🎨 User Interface Layout
+
+- **Left Panel (ActionPanel)** → Select actions like Upload, Normalize, Generate ER.
+
+- **Center Panel (OutputPanel)** → Shows workflow as draggable blocks.
+
+- **Right Panel (Split: Messages + Code)** → Messages with logs & dropdowns for normalized tables.
+
+- **Code Panel** showing Python snippets.
 
 
 
