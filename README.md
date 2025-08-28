@@ -1,1 +1,54 @@
-#Automated Database Normalization and Visualization Framework
+# 📊 Database Design Studio  
+
+🚀 **Database Design Studio** is a full-stack application built with **Flask (backend)** and **React (frontend)** to automate **database normalization**, **functional dependency detection**, **ER diagram generation**, and **workflow visualization**.  
+
+It provides an **Excel-like UI for tables**, interactive panels for workflow management, and auto-generated **ER diagrams (Graphviz / Mermaid.js)**.  
+
+---
+
+## ✨ Features  
+
+- 🔼 **File Upload & Cleaning** – Upload datasets (CSV/Excel) and preprocess them.  
+- 📐 **Normalization (1NF → 3NF)** – Automated decomposition with candidate keys, superkeys, and primary key detection.  
+- 🔍 **Functional Dependency Detection** – Auto-detect FDs with compound attributes.  
+- 🔄 **Dependency Preservation & Lossless Check** – Verify correctness of decomposition.  
+- 📊 **Excel-like Table Viewer** – Browse normalized tables dynamically.  
+- 📜 **Code Panel** – View the executed backend code for each workflow step.  
+- 🔔 **Message Panel** – See messages, logs, and interactive dropdowns for table navigation.  
+- 📌 **ER Diagram Generator** – Visualize entities & relationships with PK/FK detection (colored + styled).  
+- 🧩 **Interactive Workflow UI** – Draggable workflow blocks with connected flow lines.  
+
+---
+
+## 🏗️ System Architecture  
+
+```plaintext
+frontend/ (React)
+├── src/
+│   ├── App.jsx                 # Main Layout with Panels
+│   ├── context/StateContext.jsx # Global State Manager
+│   ├── components/             # UI Components
+│   │   ├── ActionPanel.jsx
+│   │   ├── OutputPanel.jsx
+│   │   ├── CodePanel.jsx
+│   │   ├── MessagePanel.jsx
+│   │   ├── FileUploader.jsx
+│   │   ├── TableViewer.jsx
+│   │   ├── ERDiagram.jsx
+│   │   └── FDViewer.jsx
+│   └── api.js                  # Axios API Calls
+├── style.css                   # Styling
+
+backend/ (Flask)
+├── app.py                      # Flask App Entry
+├── cleanModify.py               # Data Cleaning
+├── convert_to_csv.py            # File Conversion
+├── dependency_preservation.py   # Dependency Preservation Check
+├── er_diagram.py                # ER Diagram Generation
+├── fd_modified.py               # FD Detection Logic
+├── key_utils.py                 # Key Detection Utilities
+├── lossless_check.py            # Lossless Join Algorithm
+├── Normalize_1_2_3NF.py         # Normalization Logic
+└── processed/                   # Stores processed/normalized tables
+
+
