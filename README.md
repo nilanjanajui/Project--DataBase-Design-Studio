@@ -112,9 +112,9 @@ npm start
 <p align="center">
   <img src="assets/workflow.png" alt="Workflow Visualization" width="700"/>
   <br/>
-  <img src="assets/er-diagram.png" alt="ER Diagram" width="700"/>
+  <img src="assets/ER_Diagram.png" alt="ER Diagram" width="700"/>
   <br/>
-  <img src="assets/normalized-tables.png" alt="Normalized Tables" width="700"/>
+  <img src="assets/normalize.png" alt="Normalized Tables" width="700"/>
 </p>
 
 ---
