@@ -50,5 +50,65 @@ backend/ (Flask)
 ├── lossless_check.py            # Lossless Join Algorithm
 ├── Normalize_1_2_3NF.py         # Normalization Logic
 └── processed/                   # Stores processed/normalized tables
+```
+
+## ⚡ Installation & Setup
+ 🔹 **Backend (Flask)**
+ ```plaintext
+  # Clone the repo
+  git clone https://github.com/your-username/database-design-studio.git
+  cd database-design-studio
+
+  # Create a virtual environment
+  python -m venv venv
+  venv\Scripts\activate   # On Windows
+  # source venv/bin/activate  # On Mac/Linux
+
+  # Install dependencies
+  pip install -r requirements.txt
+
+  # Run backend server
+  python app.py
+
+```
+
+## The Flask server will start at:
+  ```plaintext
+  http://127.0.0.1:5000
+  ```
+
+## 🔹 Frontend (React)
+```plaintext
+  cd frontend
+
+  # Install dependencies
+  npm install
+
+  # Run React app
+  npm start
+```
+
+## The React frontend will start at:
+```plaintext
+  http://localhost:3000
+```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
