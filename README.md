@@ -146,8 +146,8 @@ npm start
 ---
 
 ## 👩‍💻 Contributors
-- 👩‍💻 *Subha Shesgin*(https://github.com/subha-shesgin)
-- 👩‍💻 *Sumaiya Nazneen*(https://github.com/priX-D)
+- 👩‍💻 [Subha Shesgin](https://github.com/subha-shesgin)
+- 👩‍💻 [Sumaiya Nazneen](https://github.com/priX-D)
 
 ---
 
