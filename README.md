@@ -98,8 +98,10 @@ npm start
 
 ---
 
-**Live Web Application:** [https://database-design-studio.netlify.app/](https://database-design-studio.netlify.app/)
+## Live Web Application: 
+[https://database-design-studio.netlify.app/](https://database-design-studio.netlify.app/)
 
+---
 
 ## 🎨 User Interface Layout
 
