@@ -98,6 +98,9 @@ npm start
 
 ---
 
+**Live Web Application:** [https://database-design-studio.netlify.app/](https://database-design-studio.netlify.app/)
+
+
 ## 🎨 User Interface Layout
 
 - **Left Panel (ActionPanel)** → Select actions like Upload, Normalize, Generate ER.
